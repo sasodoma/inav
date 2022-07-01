@@ -41,7 +41,7 @@ const timerHardware_t timerHardware[] = {
     DEF_TIM(TIM2, CH1, PA15,TIM_USE_LED,0,0), //2812 STRIP DMA1_ST5
 };*/
 
-const timerHardware_t timerHardware[] = {
+timerHardware_t timerHardware[] = {
     DEF_TIM(TIM9, CH2, PA3, TIM_USE_PPM ,0, 0),
 
     DEF_TIM(TIM3, CH3, PB0, TIM_USE_MC_MOTOR |  TIM_USE_FW_SERVO,0,0), //S1 DMA2_ST2  T8CH1
