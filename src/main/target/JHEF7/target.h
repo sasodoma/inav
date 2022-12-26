@@ -37,16 +37,12 @@
     #define IMU_MPU6000_ALIGN       CW90_DEG
     #define MPU6000_CS_PIN          PA4
     #define MPU6000_SPI_BUS         BUS_SPI1
-
-    #define GYRO_INT_EXTI            PC3
 #else
     // ICM20689
     #define USE_IMU_ICM20689
     #define IMU_ICM20689_ALIGN       CW90_DEG
     #define ICM20689_CS_PIN          PB2
     #define ICM20689_SPI_BUS         BUS_SPI1
-
-    #define GYRO_INT_EXTI            PC4
 #endif
 
 #define USE_VCP
