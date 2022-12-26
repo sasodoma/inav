@@ -49,9 +49,6 @@
     #define GYRO_INT_EXTI            PC4
 #endif
 
-#define USE_EXTI
-#define USE_MPU_DATA_READY_SIGNAL
-
 #define USE_VCP
 
 #define USE_UART1
